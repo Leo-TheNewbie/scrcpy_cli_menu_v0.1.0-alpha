@@ -4,7 +4,7 @@ So basically i grew tired of redmagic studio with their installer not working so
 REQUISITES: 
   THE Latest: 
     ADB
-    SCRCPY 
+    SCRCPY
   WINDOWS 11 (is a .bat file i am not sure it works for previous versions)
 Settings:
   DEVELOPER OPTIONS:
@@ -17,14 +17,20 @@ Settings:
     Disable default Framerate:                    ON
     Force activities  to be resizable:            ON
     Enable Freeform windows:                      ON
-
+---
   HOW TO INSTALL:
-  Just download the play.bat and plop the bat file into the folder with the scrcs or windows freaks out.
+1. Download `play.bat`.
+2. Plop the `.bat` file directly into your core directory containing the `scrcpy` and `adb` binaries (otherwise Windows freaks out).
+3. Run `play.bat` and enjoy a zero-overhead setup.
+---
 
-  Note:
-  While this is a alpha i cannot phisically constantly update it, i am a uni student and this is a fan/spite project to make the scrcs more seamless and high level.
-  
+PROJECT STATUS & CONTRIBUTIONS
+
+While this is an **Alpha release**, please note that I cannot physically provide constant, active updates. I am a university student, and this remains a pure fan/spite project designed to make the `scrcpy` pipeline more seamless and high-level for hardware enthusiasts.
+
+Help, code optimization, and pull requests are very much appreciated!
   Help is very much appreciated
+---
 
   THANKS:
   
