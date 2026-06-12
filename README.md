@@ -23,7 +23,13 @@ Settings:
 
   Note:
   While this is a alpha i cannot phisically constantly update it, i am a uni student and this is a fan/spite project to make the scrcs more seamless and high level.
+  
   Help is very much appreciated
 
   THANKS:
   
+  To rosalina menu creators for the idea for the cli style
+  
+  ZTE/NUBIA/REDMAGIC: for providing a broken installation to their redmagic studio
+  
+  SCRCPY: for Providing this amazing way to mirror the phone lag free
