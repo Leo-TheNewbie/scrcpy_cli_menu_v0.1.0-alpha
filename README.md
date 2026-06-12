@@ -32,4 +32,4 @@ Settings:
   
   ZTE/NUBIA/REDMAGIC: for providing a broken installation to their redmagic studio
   
-  SCRCPY: for Providing this amazing way to mirror the phone lag free
+  **Romain Vimont (rom1v) & the Genymobile team:** For creating `scrcpy` and their amazing work to keep this mirroring working nicely
