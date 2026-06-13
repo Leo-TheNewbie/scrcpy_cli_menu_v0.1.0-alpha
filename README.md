@@ -1,11 +1,11 @@
 # scrcs_cli_menu_v0.1.0-alpha
 Is a wrapper and cli for the scrcs, it allows for dps settings, CURRENTLY WINDOWS ONLY, ps is made by coffeine fueled spite
 So basically i grew tired of redmagic studio with their installer not working so i spent a week thinking what can i do to replace it, and a few searches led me here, although i slammed my head in a few bumps. I managed to make a windows script, dedicated to any phones with active cooling fan that is integrated on hardware.
-REQUISITES: 
-  THE Latest: 
-    ADB
-    SCRCPY
-  WINDOWS 11 (is a .bat file i am not sure it works for previous versions)
+## 🛠️ PREREQUISITES
+
+* The Latest **ADB** & **SCRCPY** binaries.
+* **Windows 11**
+
 Settings:
   DEVELOPER OPTIONS:
     
