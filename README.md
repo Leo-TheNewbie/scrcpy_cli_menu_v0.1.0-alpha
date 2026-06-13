@@ -4,6 +4,7 @@ So basically i grew tired of redmagic studio with their installer not working so
 ## 🛠️ PREREQUISITES
 
 * The Latest **ADB** & **SCRCPY** binaries.
+https://scrcpy.org/download/
 * **Windows 11**
 
 Settings:
@@ -39,3 +40,12 @@ Help, code optimization, and pull requests are very much appreciated!
   ZTE/NUBIA/REDMAGIC: for providing a broken installation to their redmagic studio
   
   **Romain Vimont (rom1v) & the Genymobile team:** For creating `scrcpy` and their amazing work to keep this mirroring working nicely
+  
+ ## 🎨 ALTERNATIVE INTERFACES
+
+If you prefer a cute, full Graphical User Interface (GUI) over a lightweight, no-nonsense TUI cockpit, check out these community forks:
+
+* **[QtScrcpy](https://github.com/barry-ran/QtScrcpy)** - A beautiful, feature-rich graphical branch with custom key-mappings.
+* **[Guiscrcpy](https://github.com/srevinsaju/guiscrcpy)** - A sleek, desktop-integrated engine with full floating panels.
+
+*Note: While those projects focus on visual aesthetics and mouse-driven menus, this orchestrator (`scrcpy-cli-menu`) is built purely for rapid, lightweight terminal control and direct active-cooling hardware execution.*
