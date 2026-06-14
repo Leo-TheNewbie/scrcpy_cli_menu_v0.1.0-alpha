@@ -37,6 +37,12 @@ echo      advanced gaming setup, ensure your target app is added to Game
 echo      Space or turn on the Liquid Cooling quick toggle before launching
 echo      to avoid thermal throttling and the summer hot potato effect
 echo =====================================================================
+echo     Srcpy TUI  Copyright (C) 2026 Leonardo Ariton
+echo This program comes with ABSOLUTELY NO WARRANTY; As it is a GNU licence.
+echo This is free software, and you are welcome to redistribute it
+echo under GPLv3 condition, 
+echo ...aka corpos cannot lock this behind closed doors (sorry not so sorry)
+echo =====================================================================
 echo.
 choice /c 123 /n /m "Select an option [1-3]: "
 if errorlevel 3 goto FULL_CLEANUP_EXIT
