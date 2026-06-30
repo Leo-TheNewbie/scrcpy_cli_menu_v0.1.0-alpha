@@ -155,13 +155,17 @@ echo [+] Initializing custom performance rails...
 :: Limit background processes to zero for total session isolation
 .\adb shell cmd activity set-process-limit 0 >nul 2>&1
 
-:: Engage active physical hardware fan cooling matrix
+:: Engage active physical hardware fan and liquid cooling matrix
 echo [SYSTEM] Initiating hardware cooling loop...
 .\adb shell settings put system fan_state_of_manual 1
 .\adb shell settings put system fan_state_of_mode 1
+.\adb shell settings put system liquid_cooling_flow_speed_mode low
+.\adb shell settings put system liquid_cooling_on_off 1
+.\adb shell settings put system liquid_cooling_main_switch 1
 timeout /t 2 >nul
-echo [SYSTEM] Activating Max Turbofan Performance (20k RPM)
+echo [SYSTEM] Activating Max Turbofan (20k RPM) and AquaCore Performance
 .\adb shell settings put system fan_state_of_mode 2
+.\adb shell settings put system liquid_cooling_flow_speed_mode fast
 
 :: Dim physical device panel to dark ambient baseline
 .\adb shell settings put system screen_brightness 1 >nul 2>&1
@@ -259,8 +263,11 @@ cls
 echo [!] Initiating full hardware teardown. Restoring phone register factory matrix...
 .\adb shell cmd activity set-process-limit unlimit >nul 2>&1
 .\adb shell settings put system fan_state_of_mode 1 >nul 2>&1
+.\adb shell settings put system liquid_cooling_flow_speed_mode low
 timeout /t 2 >nul
 .\adb shell settings put system fan_state_of_manual 0 >nul 2>&1
+.\adb shell settings put system liquid_cooling_on_off 0 >nul 2>&1
+.\adb shell settings put system liquid_cooling_main_switch 0 >nul 2>&1
 .\adb shell settings put system screen_brightness 100 >nul 2>&1
 .\adb shell svc power stayon false >nul 2>&1
 
