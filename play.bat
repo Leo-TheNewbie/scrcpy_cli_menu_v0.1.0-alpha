@@ -32,10 +32,6 @@ echo      -> Target: %LAUNCH_APP%
 echo  [2] CONFIGURE ENVIRONMENT SETTINGS
 echo  [3] SAFE EXIT / HARDWARE RESET
 echo =====================================================================
-echo  [ If running a REDMAGIC 11 PRO (or later) or an
-echo      advanced gaming setup, ensure your target app is added to Game 
-echo      Space or turn on the Liquid Cooling quick toggle before launching
-echo      to avoid thermal throttling and the summer hot potato effect
 echo =====================================================================
 echo     Srcpy TUI  Copyright (C) 2026 Leonardo Ariton
 echo This program comes with ABSOLUTELY NO WARRANTY; As it is a GNU licence.
@@ -100,19 +96,9 @@ echo Common Examples:
 echo  - com.freestylelibre.app.it (LibreLink IT)
 echo  - com.whatsapp (WhatsApp Messenger)
 echo  - com.instagram.android (Instagram)
+echo  - com.google.android.youtube (Youtube)
 echo.
 set /p "LAUNCH_APP=Type or paste exact app package ID: "
-cls
-echo =====================================================================
-echo  [] IMPORTANT HARDWARE PRO-TIP FOR LIQUID COOLING
-echo =====================================================================
-echo  To ensure the physical fluid pump engages and keeps the Snapdragon
-echo  from turning into a summer hot potato, make sure you either:
-echo.
-echo  1. Add and launch "%LAUNCH_APP%" inside the phone's GAME SPACE.
-echo  2. OR manually toggle "Liquid Cooling" ON via the Quick Settings
-echo     notification bar before starting the session.
-echo =====================================================================
 echo.
 echo Saving details and returning to menu...
 goto SAVE_INTERNAL_STATE
